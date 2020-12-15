@@ -1,0 +1,21 @@
+<view class="container">
+	<view>
+		<image src="https://ae03.alicdn.com/kf/H48c8c3a4f3c14042aecbd036821224a0Q.jpg" mode="widthFix"></image>
+	</view>
+
+	<view class="printer">
+		<image class="avatar" src="https://ae04.alicdn.com/kf/Hb7749715262843c494d3f8bf0208d35ak.jpg"
+			mode="widthFix"></image>
+		<view class="title">设备</view>
+		<view class="name">id0002</view>
+	</view>
+
+	<view class="body">
+		<view class="user">
+			<open-data class="avatar" type="userAvatarUrl"></open-data>
+			<view class="title">用户</view>
+			<open-data class="name" type="userNickName"></open-data>
+		</view>
+
+	</view>
+</view>

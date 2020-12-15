@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/write/index",
+    "pages/history/index",
+    "pages/text/index",
+    "pages/white_board/index",
+    "pages/camera/index",
+    "pages/setting/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "暖心小纸条",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  
+  "tabBar": {
+    "color": "",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/write/index",
+        "text": "",
+        "iconPath": "./icons/edit.png",
+        "selectedIconPath": "./icons/edit_.png"
+      },
+      {
+        "pagePath": "pages/history/index",
+        "text": "",
+        "iconPath": "./icons/time.png",
+        "selectedIconPath": "./icons/time_.png"
+      },
+      {
+        "pagePath": "pages/setting/index",
+        "text": "",
+        "iconPath": "./icons/setting.png",
+        "selectedIconPath": "./icons/setting_.png"
+      }
+    ]
+  }
+  
+}

@@ -1,0 +1,36 @@
+.square {
+  display: flex;
+  flex-direction: column;
+  margin: 30rpx;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.cell {
+  height: 90rpx;
+  width: 90rpx;
+  margin: 1rpx;
+  background-color: lightgrey;
+}
+
+.active {
+  background-color: black;
+}
+
+input {
+  height: 80rpx;
+  background-color: lightgrey;
+  margin: 20rpx;
+}
+
+button {
+	margin: 40rpx;
+}
+
+image {
+	border-radius: 15rpx;
+}

@@ -1,0 +1,20 @@
+button {
+	margin: 40rpx;
+}
+
+.show {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: large;
+	font-weight: bolder;
+	margin: 20rpx;
+	height: 100rpx;
+	width: 400rpx;
+	background-color: lightgray;
+	border-radius: 15rpx;
+}
+
+image {
+	border-radius: 15rpx;
+}

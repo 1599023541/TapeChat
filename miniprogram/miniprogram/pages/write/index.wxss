@@ -1,0 +1,7 @@
+button {
+	margin: 100rpx;
+}
+
+image {
+	border-radius: 15rpx;
+}

@@ -1,0 +1,17 @@
+input {
+  height: 80rpx;
+  width: 500rpx;
+  border-radius: 15rpx;
+  background-color: lightgrey;
+  margin: 20rpx;
+  font-weight: bold;
+  font-size: large;
+}
+
+button {
+	margin: 40rpx;
+}
+
+image {
+	border-radius: 15rpx;
+}

@@ -1,0 +1,67 @@
+button {
+	margin: 40rpx;
+}
+
+image {
+	border-radius: 15rpx;
+}
+
+.user {
+	height: 200rpx;
+	width: 500rpx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-size: large;
+	font-weight: bolder;
+	margin: 20rpx;
+	border-radius: 15rpx;
+}
+
+.avatar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+}
+.title {
+	background-color: lightgray;
+	height: 100rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: medium;
+	font-weight: 600;
+	flex: 1;
+}
+.name {
+	background-color: lightgray;
+	height: 100rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: large;
+	font-weight: bolder;
+	flex: 3;
+}
+
+.printer {
+	height: 200rpx;
+	width: 500rpx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-size: large;
+	font-weight: bolder;
+	margin: 20rpx;
+	border-radius: 15rpx;
+}
+
+.body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}

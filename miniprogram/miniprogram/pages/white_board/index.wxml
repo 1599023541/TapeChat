@@ -1,0 +1,26 @@
+<view class="container">
+  <image src="https://ae03.alicdn.com/kf/H68b24880fc88467ea8518c6ab9dfe0cbI.jpg" mode="widthFix"></image>
+  <view class="square">
+    <view class="line" wx:for="{{8}}" wx:for-index="i">
+      <view data-address="{{[i, j]}}" bindtouchstart="handle_touchstart" bindtouchmove="handle_touchend" class="cell {{active_list[i][j]? 'active':''}}" wx:for="{{8}}" wx:for-index="j">
+        <view></view>
+      </view>
+    </view>
+  </view>
+
+  <form bindsubmit="submit_func" bindreset="reset_func">
+    <button type="primary" form-type="submit">发送</button>
+    <button type="warn" form-type="reset">重置</button>
+  </form>
+
+  <view class="fadeIn" wx:if="{{iosDialog2}}">
+    <view class="weui-mask"></view>
+    <view class="weui-dialog">
+      <view class="weui-dialog__bd">发送成功</view>
+      <view class="weui-dialog__ft">
+        <a class="weui-dialog__btn weui-dialog__btn_primary" bindtap="close">确定</a>
+      </view>
+    </view>
+  </view>
+
+</view>

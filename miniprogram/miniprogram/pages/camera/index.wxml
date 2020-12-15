@@ -1,0 +1,17 @@
+<view class="container">
+	<view>
+		<image src="https://sc02.alicdn.com/kf/H206a6a70f3714b2fa78be64cba708344k.jpg" mode="widthFix"></image>
+	</view>
+	<button bindtap="scan_func" type="primary">扫描并发送</button>
+	<view class="show">{{content}}</view>
+
+	<view class="fadeIn" wx:if="{{iosDialog2}}">
+		<view class="weui-mask"></view>
+		<view class="weui-dialog">
+			<view class="weui-dialog__bd">发送成功</view>
+			<view class="weui-dialog__ft">
+				<a class="weui-dialog__btn weui-dialog__btn_primary" bindtap="close">确定</a>
+			</view>
+		</view>
+	</view>
+</view>

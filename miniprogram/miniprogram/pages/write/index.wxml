@@ -1,0 +1,8 @@
+<view class="container">
+	<view><image src="https://sc03.alicdn.com/kf/Hbadcaa67f47a4f35a999407c9d883978B.jpg" mode="widthFix"></image></view>
+	<view class="page_sort">
+		<button style="color:#ff6633" type="default" bindtap="text_func">文字输入</button>
+		<button style="color:#ff6633" type="default" bindtap="white_board_func">绘图画板</button>
+		<button style="color:#ff6633" type="default" bindtap="camera_func">手写扫描</button>
+	</view>
+</view>

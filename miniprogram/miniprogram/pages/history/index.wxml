@@ -1,0 +1,28 @@
+<view class="container">
+	<view>
+		<image src="https://ae04.alicdn.com/kf/H471bfaf6fdc4413f91a850e639dd5b49F.jpg" mode="widthFix"></image>
+	</view>
+
+	<button style="color:#ff6633" type="default" bindtap="download">查询记录</button>
+
+
+	<view class="fadeIn" wx:if="{{dialog1}}">
+		<view class="weui-mask" bindtap="close"></view>
+		<view class="weui-half-screen-dialog">
+			<view class="weui-half-screen-dialog__hd">
+				<view class="weui-half-screen-dialog__hd__side" bindtap="close">
+					<a class="weui-icon-btn">关闭<i class="weui-icon-close-thin"></i></a>
+				</view>
+				<view class="weui-half-screen-dialog__hd__main">
+					<strong class="weui-half-screen-dialog__title">记录</strong>
+				</view>
+			</view>
+			<view class="box">
+				<view class="sheet" wx:for="{{datapoints}}" wx:for-index="index" wx:if="{{index < 5}}">
+					{{item['at']}}
+				</view>
+			</view>
+
+		</view>
+	</view>
+</view>
